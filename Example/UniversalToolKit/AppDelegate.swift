@@ -43,4 +43,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+import UniversalToolKit
+extension UIButton : TQLoadProtocol{
+    public static func tqLoad() {
+        
+    }
+    public static func tqInitialized() {
+        
+    }
+}

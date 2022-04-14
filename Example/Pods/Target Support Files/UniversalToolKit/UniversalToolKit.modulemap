@@ -1,0 +1,6 @@
+framework module UniversalToolKit {
+  umbrella header "UniversalToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

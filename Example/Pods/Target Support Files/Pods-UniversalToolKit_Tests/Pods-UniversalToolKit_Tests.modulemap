@@ -1,0 +1,6 @@
+framework module Pods_UniversalToolKit_Tests {
+  umbrella header "Pods-UniversalToolKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

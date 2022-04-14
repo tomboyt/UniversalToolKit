@@ -1,0 +1,16 @@
+PODS:
+  - UniversalToolKit (0.1.0)
+
+DEPENDENCIES:
+  - UniversalToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  UniversalToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UniversalToolKit: 71386b13525ca97837dd2bd74f01d2d4f26ec075
+
+PODFILE CHECKSUM: 9e0dd65bb2f94bb2e06b14a8a3312938d7dc5b6d
+
+COCOAPODS: 1.11.3
