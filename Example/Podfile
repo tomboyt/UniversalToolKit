@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UniversalToolKit_Example' do
+  pod 'UniversalToolKit', :path => '../'
+
+  target 'UniversalToolKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
