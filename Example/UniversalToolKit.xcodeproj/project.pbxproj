@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		841686772807BF870007CD34 /* swifty.m in Sources */ = {isa = PBXBuildFile; fileRef = 841686762807BF870007CD34 /* swifty.m */; };
 		864FC99F6354FEAC873BAD74 /* Pods_UniversalToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384A20CB7F5F8A1B8D2F36A /* Pods_UniversalToolKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2384A20CB7F5F8A1B8D2F36A /* Pods_UniversalToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5069AEF84AB1CCEE77971F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F5069AEF84AB1CCEE77971F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		57CA29A5282AC2C0E5EAA1F4 /* Pods_UniversalToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* UniversalToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B39CA742B10B78F1C2C7703 /* Pods-UniversalToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalToolKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-UniversalToolKit_Example/Pods-UniversalToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		81438E218CFF3C973E4C5141 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C725FD862E4473D60887FB93 /* UniversalToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UniversalToolKit.podspec; path = ../UniversalToolKit.podspec; sourceTree = "<group>"; };
+		81438E218CFF3C973E4C5141 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		841686762807BF870007CD34 /* swifty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swifty.m; sourceTree = "<group>"; };
+		C725FD862E4473D60887FB93 /* UniversalToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UniversalToolKit.podspec; path = ../UniversalToolKit.podspec; sourceTree = "<group>"; };
 		D511E8D0BFD50073E60537FD /* Pods-UniversalToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalToolKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-UniversalToolKit_Tests/Pods-UniversalToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE9C58267B6C4596C489A75E /* Pods-UniversalToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-UniversalToolKit_Example/Pods-UniversalToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F7E0DDB8588F3DEA5484F6C4 /* Pods-UniversalToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalToolKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UniversalToolKit_Tests/Pods-UniversalToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				841686762807BF870007CD34 /* swifty.m */,
 			);
 			name = "Example for UniversalToolKit";
 			path = UniversalToolKit;
@@ -156,7 +159,6 @@
 				F7E0DDB8588F3DEA5484F6C4 /* Pods-UniversalToolKit_Tests.debug.xcconfig */,
 				D511E8D0BFD50073E60537FD /* Pods-UniversalToolKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,7 +216,8 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 8V6RLXT2QN;
+						LastSwiftMigration = 1330;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -228,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -354,6 +358,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				841686772807BF870007CD34 /* swifty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,11 +504,15 @@
 			baseConfigurationReference = 7B39CA742B10B78F1C2C7703 /* Pods-UniversalToolKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8V6RLXT2QN;
 				INFOPLIST_FILE = UniversalToolKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UniversalToolKit/UniversalToolKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -514,11 +523,14 @@
 			baseConfigurationReference = DE9C58267B6C4596C489A75E /* Pods-UniversalToolKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8V6RLXT2QN;
 				INFOPLIST_FILE = UniversalToolKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UniversalToolKit/UniversalToolKit_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

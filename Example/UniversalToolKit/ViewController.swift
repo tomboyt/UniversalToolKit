@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import UniversalToolKit
 
+extension UIButton : TQLoadProtocol{
+    public static func tqLoad() {
+        
+    }
+    public static func tqInitialized() {
+        
+    }
+}
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (8.0.9)
+  - Quick (2.2.1)
+  - UniversalToolKit (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 8.0.7)
+  - Quick (~> 2.2.0)
+  - UniversalToolKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  UniversalToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  UniversalToolKit: 71386b13525ca97837dd2bd74f01d2d4f26ec075
+
+PODFILE CHECKSUM: edd38420c67a3b0a9266e8298819322257d09945
+
+COCOAPODS: 1.11.3
