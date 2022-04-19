@@ -11,7 +11,8 @@
 
 @implementation NSBundle (Resource)
 + (void)load {
-    Method originMethod = class_getInstanceMethod(self, @selector(pathForResource:ofType:));
+    Method originMethod  = class_getClassMethod(self, @selector(URLForResource:withExtension:));
+    //Method originMethod = class_getInstanceMethod(self, @selector(pathForResource:ofType:));
     Method newMethod = class_getInstanceMethod(self, @selector(tempPathForResource:ofType:));
     method_exchangeImplementations(originMethod, newMethod);
 }
