@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B185AA184C2BEA8329CB69FFD106EB /* TQLoadInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = A09D3FD9529A1FDF49C2F71D226EABAC /* TQLoadInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B59BD90AFBCBF338B87E0FDC487D35E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30635A08F7FCC445D1981ABA49BA4326 /* TQLoadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE511E775F4AD9BB7559AB86499C5F /* TQLoadInitialize.m */; };
 		5D992C98571904D9C4C92BFD51777E92 /* Pods-UniversalToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAE361F620E812FD79747B8C219AD81 /* Pods-UniversalToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C2D1BBDC8193EBA7E8160A6C833BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		87A8E020A522944EFC96E5192FEE49CC /* TQLoadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5207AB2D0CD00CB3B6BF26DFD29367 /* TQLoadInitialize.m */; };
+		79C09A9774EC957E458D8F85CD7C63DE /* UniversalToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B90DF401858645B9A08E2540E34107 /* UniversalToolKit-dummy.m */; };
+		804F38B0FB87C62F9A71ADC916FF6B0F /* TQLoadInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = D5849BAE5936A87035709BBFF777EA05 /* TQLoadInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89D371CADC11175687CB5115FB4E8E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8E7A5FAC04115DD6B9848DBC4A1DDB1D /* Pods-UniversalToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 848843612701916DBBEB80F986FD6E2C /* Pods-UniversalToolKit_Tests-dummy.m */; };
+		A4B9DA0B02F5457C903B53BEF0C04690 /* NSBundle+Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567AE112496052EB09805456F75A829 /* NSBundle+Resource.m */; };
+		A855FCF2FB9D130DBB524B86AEDEFD9F /* UniversalToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4750CE8BBBD80360AB9A08E87A823888 /* UniversalToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEDB2B96362C23BFEC389DFE67D4C1D8 /* Pods-UniversalToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5509E88DD6D5821DB2E255CE7B56A0 /* Pods-UniversalToolKit_Example-dummy.m */; };
-		C46F75AECC3A8B8772A21F53E363A129 /* UniversalToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A01766283EE447BA983059E99CC5B570 /* UniversalToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91E168DE2AC3CB265EB460340277E0F /* NSBundle+Resource.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA8F4D7F13C6C2CAFA76447AEBA4F38 /* NSBundle+Resource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E94F4E355AEDC79E899DEE30A4A125F9 /* Pods-UniversalToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73825A5F9AAB1779D1F86916BE5C58A8 /* Pods-UniversalToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF2D3FC04B2EE5EC9B009564C75AC009 /* UniversalToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40613FFD00B3C10B3E48B2FF8AD3BD8A /* UniversalToolKit-dummy.m */; };
-		EF3C20F33C5875A02DFC684928D9A82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		72CFF24AC9B4F37DC39EB126FA8A216A /* PBXContainerItemProxy */ = {
+		005A1BD373E3775E845E9A746F9BA414 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3459BE053129C89CC0B187BE4A319D7C;
 			remoteInfo = UniversalToolKit;
 		};
-		C1C94330855B16301758ED46CD857DF6 /* PBXContainerItemProxy */ = {
+		406A1B728E35EEC282A7AFFDFAA039FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,50 +41,44 @@
 
 /* Begin PBXFileReference section */
 		07AFC28E703B8B75591F28DA7D6B4A1A /* Pods-UniversalToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalToolKit_Example-Info.plist"; sourceTree = "<group>"; };
-		08988B0AE637F4390F405CF7FFD634DB /* UniversalToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniversalToolKit.release.xcconfig; sourceTree = "<group>"; };
 		0E5509E88DD6D5821DB2E255CE7B56A0 /* Pods-UniversalToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalToolKit_Example-dummy.m"; sourceTree = "<group>"; };
 		10F1B6675859DB72722FE47ECBB06044 /* Pods-UniversalToolKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UniversalToolKit_Example"; path = Pods_UniversalToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14E08FFC7AD355973738C479C71ECA7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1287836A83B99EC48FF13848230A87BA /* UniversalToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UniversalToolKit.modulemap; sourceTree = "<group>"; };
+		1567AE112496052EB09805456F75A829 /* NSBundle+Resource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Resource.m"; path = "UniversalToolKit/Classes/NSBundle+Resource.m"; sourceTree = "<group>"; };
+		17B90DF401858645B9A08E2540E34107 /* UniversalToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UniversalToolKit-dummy.m"; sourceTree = "<group>"; };
 		1B5794935E87DDEDF530D9D7BEE4D762 /* Pods-UniversalToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniversalToolKit_Example.modulemap"; sourceTree = "<group>"; };
+		1F3117BC31B129444C4E0B6CD3ED11F4 /* UniversalToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniversalToolKit.release.xcconfig; sourceTree = "<group>"; };
 		28BD55C3FCA4313C0520B0660E1F11EC /* Pods-UniversalToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UniversalToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2EAE361F620E812FD79747B8C219AD81 /* Pods-UniversalToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniversalToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		32C332A7E9C5F60B8269138FD712A8F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		343F431E2E893C43B9BB2671A6724A72 /* Pods-UniversalToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3BAF620FFF6B54935800CCFCD238A013 /* UniversalToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniversalToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		3BB34F8D71E07F99379218C4E880B135 /* Pods-UniversalToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40613FFD00B3C10B3E48B2FF8AD3BD8A /* UniversalToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UniversalToolKit-dummy.m"; sourceTree = "<group>"; };
+		4750CE8BBBD80360AB9A08E87A823888 /* UniversalToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UniversalToolKit-umbrella.h"; sourceTree = "<group>"; };
+		476314AA929CE57B573272FDD093C5DD /* UniversalToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UniversalToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4FAC8BD1EFEF79744D0B71B0135CABA9 /* Pods-UniversalToolKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UniversalToolKit_Tests"; path = Pods_UniversalToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF2DBD521DF8604E4C71BE1E149FF92 /* Pods-UniversalToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniversalToolKit_Tests.modulemap"; sourceTree = "<group>"; };
 		69D78946028543942D72F376187AE064 /* Pods-UniversalToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73825A5F9AAB1779D1F86916BE5C58A8 /* Pods-UniversalToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniversalToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C6A833FD89C509C01CD5CF572F34F7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		831506D677B340592BAA4220AC963A39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		848843612701916DBBEB80F986FD6E2C /* Pods-UniversalToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		9919443BCDAD79597AA83C1608C52F23 /* UniversalToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UniversalToolKit-Info.plist"; sourceTree = "<group>"; };
-		99CA799D1CD6AF9AC4098E8211D24A4C /* UniversalToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UniversalToolKit.modulemap; sourceTree = "<group>"; };
+		87B9FE8793BC8D64AA632D14B6012F50 /* UniversalToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniversalToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A01766283EE447BA983059E99CC5B570 /* UniversalToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UniversalToolKit-umbrella.h"; sourceTree = "<group>"; };
-		A09D3FD9529A1FDF49C2F71D226EABAC /* TQLoadInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TQLoadInitialize.h; path = UniversalToolKit/Classes/TQLoadInitialize.h; sourceTree = "<group>"; };
 		A48E450D381A3313BC7B67E02B21D974 /* UniversalToolKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UniversalToolKit; path = UniversalToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B306EB0A2DFE2692B9A5346DE70C7F8C /* UniversalToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UniversalToolKit-Info.plist"; sourceTree = "<group>"; };
 		B596946553CA9F780C7379E63745D96F /* Pods-UniversalToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCA8F4D7F13C6C2CAFA76447AEBA4F38 /* NSBundle+Resource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Resource.h"; path = "UniversalToolKit/Classes/NSBundle+Resource.h"; sourceTree = "<group>"; };
 		CD5D3F9DB949A2EB8884B77EC2BA9EE7 /* Pods-UniversalToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniversalToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0A9219BF915C15F9B429D743086FCF7 /* Pods-UniversalToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniversalToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D366E7ED804C3B15FC8B97C034295549 /* UniversalToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UniversalToolKit-prefix.pch"; sourceTree = "<group>"; };
-		DD5F710081DF48A7F0579C804CD8FE33 /* UniversalToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UniversalToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5849BAE5936A87035709BBFF777EA05 /* TQLoadInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TQLoadInitialize.h; path = UniversalToolKit/Classes/TQLoadInitialize.h; sourceTree = "<group>"; };
 		E7742D6828B8DD17C0E3CB7690C1D538 /* Pods-UniversalToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDFE511E775F4AD9BB7559AB86499C5F /* TQLoadInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TQLoadInitialize.m; path = UniversalToolKit/Classes/TQLoadInitialize.m; sourceTree = "<group>"; };
 		FB8BCD1F2F638D5D335636D7BBBB1900 /* Pods-UniversalToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		FB8EB93A35E6CED31079934B490D75F5 /* UniversalToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UniversalToolKit-prefix.pch"; sourceTree = "<group>"; };
 		FC7F82F134B8910C0C40B7B8DB572865 /* Pods-UniversalToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF5207AB2D0CD00CB3B6BF26DFD29367 /* TQLoadInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TQLoadInitialize.m; path = UniversalToolKit/Classes/TQLoadInitialize.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C058113335642681E4095F411E41274 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF3C20F33C5875A02DFC684928D9A82E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56B9E0E7CC167A0DD1D24FEF10D2276D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,29 +95,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D72E7731DC2E54C4E164CFC1432016E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B59BD90AFBCBF338B87E0FDC487D35E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BA5043569EB232659802CC9336389D5 /* Pod */ = {
+		11F448FBBBBAF9CCF407482D337073E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32C332A7E9C5F60B8269138FD712A8F8 /* LICENSE */,
-				14E08FFC7AD355973738C479C71ECA7B /* README.md */,
-				DD5F710081DF48A7F0579C804CD8FE33 /* UniversalToolKit.podspec */,
+				5827399B2CC72AF414BE66DA5E703131 /* UniversalToolKit */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1387611A50551D449ED53276D98C5C33 /* UniversalToolKit */ = {
-			isa = PBXGroup;
-			children = (
-				A09D3FD9529A1FDF49C2F71D226EABAC /* TQLoadInitialize.h */,
-				FF5207AB2D0CD00CB3B6BF26DFD29367 /* TQLoadInitialize.m */,
-				0BA5043569EB232659802CC9336389D5 /* Pod */,
-				5EBBAB5EBC2BDEDE64E71C687EFE4BF7 /* Support Files */,
-			);
-			name = UniversalToolKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		37F9D3FF8B7F913A027333298A78AA94 /* Pods-UniversalToolKit_Example */ = {
@@ -158,16 +148,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5EBBAB5EBC2BDEDE64E71C687EFE4BF7 /* Support Files */ = {
+		5827399B2CC72AF414BE66DA5E703131 /* UniversalToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				99CA799D1CD6AF9AC4098E8211D24A4C /* UniversalToolKit.modulemap */,
-				40613FFD00B3C10B3E48B2FF8AD3BD8A /* UniversalToolKit-dummy.m */,
-				9919443BCDAD79597AA83C1608C52F23 /* UniversalToolKit-Info.plist */,
-				D366E7ED804C3B15FC8B97C034295549 /* UniversalToolKit-prefix.pch */,
-				A01766283EE447BA983059E99CC5B570 /* UniversalToolKit-umbrella.h */,
-				3BAF620FFF6B54935800CCFCD238A013 /* UniversalToolKit.debug.xcconfig */,
-				08988B0AE637F4390F405CF7FFD634DB /* UniversalToolKit.release.xcconfig */,
+				CCA8F4D7F13C6C2CAFA76447AEBA4F38 /* NSBundle+Resource.h */,
+				1567AE112496052EB09805456F75A829 /* NSBundle+Resource.m */,
+				D5849BAE5936A87035709BBFF777EA05 /* TQLoadInitialize.h */,
+				EDFE511E775F4AD9BB7559AB86499C5F /* TQLoadInitialize.m */,
+				94EF98D48608F87AE973129261BF95CC /* Pod */,
+				79A4C03B944CE96EDF454E39BDC8EBCC /* Support Files */,
+			);
+			name = UniversalToolKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		79A4C03B944CE96EDF454E39BDC8EBCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1287836A83B99EC48FF13848230A87BA /* UniversalToolKit.modulemap */,
+				17B90DF401858645B9A08E2540E34107 /* UniversalToolKit-dummy.m */,
+				B306EB0A2DFE2692B9A5346DE70C7F8C /* UniversalToolKit-Info.plist */,
+				FB8EB93A35E6CED31079934B490D75F5 /* UniversalToolKit-prefix.pch */,
+				4750CE8BBBD80360AB9A08E87A823888 /* UniversalToolKit-umbrella.h */,
+				87B9FE8793BC8D64AA632D14B6012F50 /* UniversalToolKit.debug.xcconfig */,
+				1F3117BC31B129444C4E0B6CD3ED11F4 /* UniversalToolKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UniversalToolKit";
@@ -199,19 +203,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		914EC6C9BC718AA3678758D7DC6FBDBA /* Development Pods */ = {
+		94EF98D48608F87AE973129261BF95CC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1387611A50551D449ED53276D98C5C33 /* UniversalToolKit */,
+				7C6A833FD89C509C01CD5CF572F34F7A /* LICENSE */,
+				831506D677B340592BAA4220AC963A39 /* README.md */,
+				476314AA929CE57B573272FDD093C5DD /* UniversalToolKit.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				914EC6C9BC718AA3678758D7DC6FBDBA /* Development Pods */,
+				11F448FBBBBAF9CCF407482D337073E4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8A0B96C1E982CDBA2430DABC02DF13DF /* Products */,
 				57BEB8959651A0D1B7699518F95D296B /* Targets Support Files */,
@@ -229,12 +235,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59D48ABBD204431AFE00F8C9E530A582 /* Headers */ = {
+		A2C7B00C69ED7339A78DF1713E691437 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B185AA184C2BEA8329CB69FFD106EB /* TQLoadInitialize.h in Headers */,
-				C46F75AECC3A8B8772A21F53E363A129 /* UniversalToolKit-umbrella.h in Headers */,
+				B91E168DE2AC3CB265EB460340277E0F /* NSBundle+Resource.h in Headers */,
+				804F38B0FB87C62F9A71ADC916FF6B0F /* TQLoadInitialize.h in Headers */,
+				A855FCF2FB9D130DBB524B86AEDEFD9F /* UniversalToolKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +266,12 @@
 /* Begin PBXNativeTarget section */
 		3459BE053129C89CC0B187BE4A319D7C /* UniversalToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8578161B9701D41BF9BAA2E5D5E438CE /* Build configuration list for PBXNativeTarget "UniversalToolKit" */;
+			buildConfigurationList = 1EBC136AFB69D4E6972F511F3A412B7E /* Build configuration list for PBXNativeTarget "UniversalToolKit" */;
 			buildPhases = (
-				59D48ABBD204431AFE00F8C9E530A582 /* Headers */,
-				B3C2D541F80489666FF38AD85FD7A03F /* Sources */,
-				0C058113335642681E4095F411E41274 /* Frameworks */,
-				585EF2DBC39A49CD7A7D39CC3E781269 /* Resources */,
+				A2C7B00C69ED7339A78DF1713E691437 /* Headers */,
+				594DEB5B3FA89988272CBF058781DB89 /* Sources */,
+				D72E7731DC2E54C4E164CFC1432016E2 /* Frameworks */,
+				8B37776678C4E482925F308B13B8061E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +294,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				25644E16BE34A564A6EEECDF28507538 /* PBXTargetDependency */,
+				62030AEC50D155F9B3B02BB1CBBF0F9E /* PBXTargetDependency */,
 			);
 			name = "Pods-UniversalToolKit_Example";
 			productName = Pods_UniversalToolKit_Example;
@@ -306,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BE3B050D6FC4238C31067B760BCB90C4 /* PBXTargetDependency */,
+				5BE110FC766694B2E6D1E4C05E5A7742 /* PBXTargetDependency */,
 			);
 			name = "Pods-UniversalToolKit_Tests";
 			productName = Pods_UniversalToolKit_Tests;
@@ -343,14 +350,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		585EF2DBC39A49CD7A7D39CC3E781269 /* Resources */ = {
+		7FB642C0790581114A06027058705439 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FB642C0790581114A06027058705439 /* Resources */ = {
+		8B37776678C4E482925F308B13B8061E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,6 +374,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		594DEB5B3FA89988272CBF058781DB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B9DA0B02F5457C903B53BEF0C04690 /* NSBundle+Resource.m in Sources */,
+				30635A08F7FCC445D1981ABA49BA4326 /* TQLoadInitialize.m in Sources */,
+				79C09A9774EC957E458D8F85CD7C63DE /* UniversalToolKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64880E8023565E108F2F24546EA99FFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,29 +400,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3C2D541F80489666FF38AD85FD7A03F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87A8E020A522944EFC96E5192FEE49CC /* TQLoadInitialize.m in Sources */,
-				EF2D3FC04B2EE5EC9B009564C75AC009 /* UniversalToolKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25644E16BE34A564A6EEECDF28507538 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UniversalToolKit;
-			target = 3459BE053129C89CC0B187BE4A319D7C /* UniversalToolKit */;
-			targetProxy = 72CFF24AC9B4F37DC39EB126FA8A216A /* PBXContainerItemProxy */;
-		};
-		BE3B050D6FC4238C31067B760BCB90C4 /* PBXTargetDependency */ = {
+		5BE110FC766694B2E6D1E4C05E5A7742 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UniversalToolKit_Example";
 			target = 6E032AE5FE879E4FF8CBF225EBC2DC66 /* Pods-UniversalToolKit_Example */;
-			targetProxy = C1C94330855B16301758ED46CD857DF6 /* PBXContainerItemProxy */;
+			targetProxy = 406A1B728E35EEC282A7AFFDFAA039FB /* PBXContainerItemProxy */;
+		};
+		62030AEC50D155F9B3B02BB1CBBF0F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UniversalToolKit;
+			target = 3459BE053129C89CC0B187BE4A319D7C /* UniversalToolKit */;
+			targetProxy = 005A1BD373E3775E845E9A746F9BA414 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -573,6 +581,37 @@
 			};
 			name = Debug;
 		};
+		6FC0BEF3FE6131D3AC98624FA2BD68C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3117BC31B129444C4E0B6CD3ED11F4 /* UniversalToolKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UniversalToolKit/UniversalToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UniversalToolKit/UniversalToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UniversalToolKit/UniversalToolKit.modulemap";
+				PRODUCT_MODULE_NAME = UniversalToolKit;
+				PRODUCT_NAME = UniversalToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A517770EDE11FC2B495984527B843229 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC7F82F134B8910C0C40B7B8DB572865 /* Pods-UniversalToolKit_Tests.release.xcconfig */;
@@ -668,9 +707,9 @@
 			};
 			name = Release;
 		};
-		E58588456F845DF482B5169FD5BFAA8C /* Debug */ = {
+		FF1393B69253B42E198B386FFEA1F6AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BAF620FFF6B54935800CCFCD238A013 /* UniversalToolKit.debug.xcconfig */;
+			baseConfigurationReference = 87B9FE8793BC8D64AA632D14B6012F50 /* UniversalToolKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -698,40 +737,18 @@
 			};
 			name = Debug;
 		};
-		ECC9BE7600339D2D077CA6C5AB7D9885 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08988B0AE637F4390F405CF7FFD634DB /* UniversalToolKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UniversalToolKit/UniversalToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UniversalToolKit/UniversalToolKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UniversalToolKit/UniversalToolKit.modulemap";
-				PRODUCT_MODULE_NAME = UniversalToolKit;
-				PRODUCT_NAME = UniversalToolKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1EBC136AFB69D4E6972F511F3A412B7E /* Build configuration list for PBXNativeTarget "UniversalToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1393B69253B42E198B386FFEA1F6AF /* Debug */,
+				6FC0BEF3FE6131D3AC98624FA2BD68C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -746,15 +763,6 @@
 			buildConfigurations = (
 				67863875AFDCF408FA5D9DF4A8160219 /* Debug */,
 				A517770EDE11FC2B495984527B843229 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8578161B9701D41BF9BAA2E5D5E438CE /* Build configuration list for PBXNativeTarget "UniversalToolKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E58588456F845DF482B5169FD5BFAA8C /* Debug */,
-				ECC9BE7600339D2D077CA6C5AB7D9885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

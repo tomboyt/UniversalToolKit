@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSBundle+Resource.h"
 #import "TQLoadInitialize.h"
 
 FOUNDATION_EXPORT double UniversalToolKitVersionNumber;
